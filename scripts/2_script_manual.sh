@@ -118,8 +118,8 @@ echo "### Klipper ###"
 echo "###############"
 echo " "
 
-echo "Cloning Klipper..."
-git clone https://github.com/KevinOConnor/klipper.git /root/klipper;
+echo "Cloning Klipper (dgus-reloaded)..."
+git clone https://github.com/Desuuuu/klipper.git /root/klipper;
 
 echo "Creating klipper service..."
 wget https://raw.githubusercontent.com/ihrapsa/KlipperWrt/main/Services/klipper -P /etc/init.d/;
